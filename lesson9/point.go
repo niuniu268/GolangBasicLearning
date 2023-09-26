@@ -11,6 +11,21 @@ func Swap(a string, b string) {
 	b = tmp
 
 }
+
+func SwapRet(a string, b string) (c, d string) {
+
+	tmp := ""
+
+	tmp = a
+	a = b
+	b = tmp
+
+	c = a
+	d = b
+
+	return c, d
+
+}
 func SwapPlace(a *string, b *string) {
 
 	var tmp = *a
@@ -31,6 +46,11 @@ func main() {
 
 	fmt.Println("a is ", a)
 	fmt.Println("b is ", b)
+
+	c, d := SwapRet(a, b)
+
+	fmt.Println("a return is d: ", d)
+	fmt.Println("b return is c: ", c)
 
 	SwapPlace(&a, &b)
 

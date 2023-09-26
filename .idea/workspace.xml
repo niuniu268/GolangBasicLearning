@@ -18,6 +18,9 @@
     </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///usr/local/opt/go/libexec/src/go.sum" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -26,23 +29,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go Application",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/Mac",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "goland.project.structure"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Mac&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -51,41 +54,41 @@
       <recent name="$PROJECT_DIR$/lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build awesomeProject/lesson11">
-    <configuration name="go build awesomeProject/lesson10" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build awesomeProject/lesson16">
+    <configuration name="go build awesomeProject/lesson13" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="awesomeProject/lesson10" />
+      <package value="awesomeProject/lesson13" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/lesson10/defer.go" />
+      <filePath value="$PROJECT_DIR$/lesson13/map.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build awesomeProject/lesson11" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build awesomeProject/lesson14" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="awesomeProject/lesson11" />
+      <package value="awesomeProject/lesson14" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/lesson11/deferRecover.go" />
+      <filePath value="$PROJECT_DIR$/lesson14/class.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build awesomeProject/lesson6" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build awesomeProject/lesson15" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="awesomeProject/lesson6" />
+      <package value="awesomeProject/lesson15" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/lesson6/constiota.go" />
+      <filePath value="$PROJECT_DIR$/lesson15/inherit.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build awesomeProject/lesson7" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build awesomeProject/lesson16" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="awesomeProject/lesson7" />
+      <package value="awesomeProject/lesson16" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/lesson7/methodreturn.go" />
+      <filePath value="$PROJECT_DIR$/lesson16/morphor.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build awesomeProject/lesson9" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -99,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build awesomeProject/lesson11" />
-        <item itemvalue="Go Build.go build awesomeProject/lesson10" />
+        <item itemvalue="Go Build.go build awesomeProject/lesson16" />
+        <item itemvalue="Go Build.go build awesomeProject/lesson15" />
+        <item itemvalue="Go Build.go build awesomeProject/lesson14" />
         <item itemvalue="Go Build.go build awesomeProject/lesson9" />
-        <item itemvalue="Go Build.go build awesomeProject/lesson7" />
-        <item itemvalue="Go Build.go build awesomeProject/lesson6" />
+        <item itemvalue="Go Build.go build awesomeProject/lesson13" />
       </list>
     </recent_temporary>
   </component>
