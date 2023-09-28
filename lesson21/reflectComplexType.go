@@ -33,14 +33,6 @@ func main() {
 }
 
 func GetFieldsandMethods(arg interface{}) {
-	//
-	numField := reflect.TypeOf(&arg).NumField()
-	fmt.Println(numField)
-	for i := 0; i < numField; i++ {
-
-		fmt.Println(reflect.TypeOf(arg).Field(i))
-
-	}
 
 	numMethod := reflect.TypeOf(arg).NumMethod()
 	fmt.Println(numMethod)
@@ -55,5 +47,14 @@ func GetFieldsandMethods(arg interface{}) {
 
 	reflect.ValueOf(arg)
 	fmt.Println(reflect.ValueOf(arg))
+
+	numField := reflect.ValueOf(arg).Elem().NumField()
+
+	fmt.Println(numField)
+	for i := 0; i < numField; i++ {
+
+		fmt.Println(reflect.ValueOf(arg).Elem().Field(i))
+
+	}
 
 }

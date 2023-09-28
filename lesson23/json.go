@@ -13,7 +13,7 @@ type Movie struct {
 
 func main() {
 
-	movie := Movie{
+	movie := &Movie{
 		Title: "a film",
 		Year:  2000,
 		Price: 100,
@@ -23,10 +23,10 @@ func main() {
 
 	//	convert to json
 
-	marshal, error := json.Marshal(movie)
+	marshal, err := json.Marshal(movie)
 
-	if error != nil {
-		fmt.Println("error", error)
+	if err != nil {
+		fmt.Println("error", err)
 		return
 	} else {
 		fmt.Printf("%s\n", marshal)
